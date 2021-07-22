@@ -5,6 +5,7 @@ const connectionString =
 
 mongoose
   .connect(connectionString, {
+    //!key value pares:
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false,
